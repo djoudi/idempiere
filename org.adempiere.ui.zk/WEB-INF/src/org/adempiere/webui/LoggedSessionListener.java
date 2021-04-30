@@ -73,13 +73,13 @@ public class LoggedSessionListener implements HttpSessionListener, ServletContex
 	        boolean started = Adempiere.startup(false);
 	        if(!started)
 	        {
-	            throw new AdempiereException("Could not start iDempiere");
+	            throw new AdempiereException("Could not start SHAMEL");
 	        }
         }
 
         logger.log(Level.OFF, "context initialized");
         /**
-         * End iDempiere Start
+         * End Shamel Start
          */
 	}
 	

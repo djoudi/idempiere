@@ -15,7 +15,7 @@ goto START
 
 :START
 @Echo =======================================
-@Echo Starting iDempiere Server ...
+@Echo Starting Shamel Server ...
 @Echo =======================================
 
 FOR %%c in (plugins\org.eclipse.equinox.launcher_1.*.jar) DO set JARFILE=%%c

@@ -1,4 +1,4 @@
-@Title ... Setup iDempiere Server
+@Title ... Setup Shamel Server
 @Echo off
 
 @REM Setup idempiere.properties and idempiereEnv.properties

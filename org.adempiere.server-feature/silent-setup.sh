@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-echo Setup idempiere Server
+echo Setup shamel Server
 
 # Setup idempiere.properties and idempiereEnv.properties
 ./idempiere --launcher.ini setup.ini -application org.adempiere.install.silent-application $@

@@ -49,13 +49,13 @@ public final class Prop implements Serializable {
 	public static final String	SUPPORTREQ_LINK		=	"SupportRequestLink";
 	public static final String	OPTION_LINK 		=	"OptionLink";
 	public static final String	FELIX_LINK 			=	"FelixLink";
-	public static final String	MONITOR_LINK 		=	"iDempiereMonitorLink";
+	public static final String	MONITOR_LINK 		=	"ShamelMonitorLink";
 	
 	/** Custom Texts */
 	public static final String OPTION_TEXT 			= "OptionText";
 	public static final String FELIX_TEXT 			= "FelixText";
 	public static final String LOCAL_TEXT			= "LocalSupportText";
-	public static final String MONITOR_TEXT 		= "iDempiereMonitorText";
+	public static final String MONITOR_TEXT 		= "ShamelMonitorText";
 	public static final String WEBUI_TEXT 			= "WebUiText";
 	public static final String WEBSTORE_TEXT		= "WebStoreText";
 	public static final String SENDREQUEST_TEXT	 	= "SendRequestText";
@@ -73,12 +73,12 @@ public final class Prop implements Serializable {
 	private static final String DEF_WEBUI_LINK 		=	"/webui/";
 	private static final String DEF_WEBSTORE_LINK 	=	"/wstore/index.jsp";
 	private static final String	DEF_SENDREQUEST_LINK=	"/wstore/request.jsp";
-	private static final String	DEF_RESOURCE_LINK	=	"http://www.idempiere.org";
+	private static final String	DEF_RESOURCE_LINK	=	"https://www.dreamdev.dz";
 	private static final String DEF_SUPPORT_LINK 	=	"#";
-	private static final String DEF_IRC_LINK 		=	"https://mattermost.idempiere.org";
-	private static final String	DEF_WIKI_LINK 		=	"http://wiki.idempiere.org/";
-	private static final String DEF_FORUMS_LINK		=	"http://groups.google.com/group/idempiere";
-	private static final String	DEF_SUPPORTREQ_LINK	=	"http://jira.idempiere.com";
+	private static final String DEF_IRC_LINK 		=	"https://www.dreamdev.dz";
+	private static final String	DEF_WIKI_LINK 		=	"https://support.dreamdev.dz/";
+	private static final String DEF_FORUMS_LINK		=	"https://www.dreamdev.dz";
+	private static final String	DEF_SUPPORTREQ_LINK	=	"https://www.dreamdev.dz";
 	
 	/**Social Network*/
 	public static final String	SOC_FACEBOOK		=	"Facebook";
@@ -90,7 +90,7 @@ public final class Prop implements Serializable {
 	public static final String	SOC_7				=	"Social7";
 	
 	/**Defaults*/
-	private static final String CREDITS				=	"Welcome to the iDempiere (OSGi+ADempiere) 8.2 Phong Page!";
+	private static final String CREDITS				=	"Welcome to the Shamel ERP  3.0";
 	private static String LOGO_URL 					= 	null;
 	
 	
@@ -125,7 +125,7 @@ public final class Prop implements Serializable {
 		{
 			if (log.isLoggable(Level.INFO)) {
 				log.info(filename + " not found");
-				log.info("!!WARNING:Please locate your custom home.properties on IDEMPIERE_HOME.");
+				log.info("!!WARNING:Please locate your custom home.properties on SHAMEL_HOME.");
 			}
 			loadOK = false;
 			try {

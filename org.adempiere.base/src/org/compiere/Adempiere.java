@@ -71,9 +71,9 @@ public final class Adempiere
 	static public String	DB_VERSION		= "2020-12-20";
 
 	/** Product Name            */
-	static public final String	NAME 			= "iDempiere\u00AE";
+	static public final String	NAME 			= "SHAMEL ERP\u00AE";
 	/** URL of Product          */
-	static public final String	URL				= "www.idempiere.org";
+	static public final String	URL				= "www.dreamdev.dz";
 	/** 16*16 Product Image. **/
 	static private final String	s_File16x16		= "images/iD16.gif";
 	/** 32*32 Product Image.   	*/
@@ -90,8 +90,8 @@ public final class Adempiere
 
 	/** Subtitle                */
 	static public final String	SUB_TITLE		= "Smart Suite ERP, CRM and SCM";
-	static public final String	ADEMPIERE_R		= "iDempiere\u00AE";
-	static public final String	COPYRIGHT		= "\u00A9 1999-2021 iDempiere\u00AE";
+	static public final String	ADEMPIERE_R		= "SHAMEL\u00AE";
+	static public final String	COPYRIGHT		= "\u00A9 2017-2021 SHAMEL\u00AE";
 
 	static private String		s_ImplementationVersion = null;
 	static private String		s_ImplementationVendor = null;
@@ -103,7 +103,7 @@ public final class Adempiere
 	static private ImageIcon 	s_imageIconLogo;
 	static private Image		s_headerLogo;
 
-	static private final String ONLINE_HELP_URL = "http://wiki.idempiere.org";
+	static private final String ONLINE_HELP_URL = "https://www.shamel.app";
 
 	/**	Logging								*/
 	private static CLogger		log = null;
@@ -250,8 +250,8 @@ public final class Adempiere
 		s_ImplementationVersion = adempierePackage.getImplementationVersion();
 		if (s_ImplementationVendor == null)
 		{
-			s_ImplementationVendor = "Supported by iDempiere community";
-			s_ImplementationVersion = "iDempiere";
+			s_ImplementationVendor = "Supported by DreamDev ";
+			s_ImplementationVersion = "SHAMEL";
 		}
 	}	//	setPackageInfo
 
@@ -337,7 +337,7 @@ public final class Adempiere
 	 */
 	public static String getURL()
 	{
-		return "http://" + URL;
+		return "https://" + URL;
 	}   //  getURL
 
 	/**
@@ -468,7 +468,7 @@ public final class Adempiere
 		//  Try Environment
 		String retValue = Ini.getAdempiereHome();
 		if (retValue == null)
-			retValue = File.separator + "idempiere";
+			retValue = File.separator + "shamel";
 		return retValue;
 	}   //  getHome
 

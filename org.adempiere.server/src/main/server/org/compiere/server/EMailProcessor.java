@@ -705,7 +705,7 @@ public class EMailProcessor
 	public static void main (String[] args)
 	{
 		Adempiere.startupEnvironment(true);
-		EMailProcessor m = new EMailProcessor("admin", "test", "testadempiere");
+		EMailProcessor m = new EMailProcessor("admin", "test", "testshamel");
 		m.processMessages();
 		
 	//	System.out.println(EMailServer.send("main", "jjanke@adempiere.org", "jjanke@yahoo.com", "test1", "test1 message"));

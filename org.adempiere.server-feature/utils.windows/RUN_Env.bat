@@ -1,4 +1,4 @@
-@Title Adempiere Environment Check
+@Title Shamel Environment Check
 
 @Rem $Id: RUN_Env.bat,v 1.16 2005/01/22 21:59:15 jjanke Exp $
 

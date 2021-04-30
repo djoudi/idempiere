@@ -18,7 +18,7 @@ if [ "$1" = "debug" ]; then
 fi
 
 echo ===================================
-echo Starting iDempiere Server
+echo Starting Shamel Server
 echo ===================================
 
 # if don't set from service get default value

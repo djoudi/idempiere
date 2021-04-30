@@ -48,7 +48,7 @@ public class Application implements IApplication {
 	        boolean started = Adempiere.startup(false);
 	        if(!started)
 	        {
-	            throw new AdempiereException("Could not start ADempiere");
+	            throw new AdempiereException("Could not start SHAMEL ERP");
 	        }
         }
 

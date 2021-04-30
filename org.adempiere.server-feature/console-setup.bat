@@ -1,4 +1,4 @@
-@Title Install idempiere Server
+@Title Install Shamel Server
 @Echo off
 
 

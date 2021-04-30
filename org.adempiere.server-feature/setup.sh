@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-echo ... Setup iDempiere Server
+echo ... Setup Shamel Server
 
 # Setup idempiere.properties and iDempiereEnv.properties
 ./idempiere --launcher.ini setup.ini -application org.adempiere.install.application $@

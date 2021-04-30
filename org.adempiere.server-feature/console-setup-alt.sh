@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-echo Setup iDempiere Server
+echo Setup Shamel Server
 # $Header: /cvsroot/adempiere/install/Adempiere/RUN_setup.sh,v 1.19 2005/09/08 21:54:12 jjanke Exp $
 
 if [ "$JAVA_HOME" ]; then

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# myEnvironment defines the variables used for idempiere
+# myEnvironment defines the variables used for shamel
 # Do not edit directly - use setup.sh
 #
 # $Id: myEnvironmentTemplate.sh,v 1.12 2005/02/21 03:17:21 jjanke Exp $

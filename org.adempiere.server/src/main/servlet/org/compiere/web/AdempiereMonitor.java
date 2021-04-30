@@ -214,7 +214,7 @@ public class AdempiereMonitor extends HttpServlet
 			return false;
 		}
 		
-		WebDoc doc = WebDoc.create ("iDempiere Server Monitor Log");
+		WebDoc doc = WebDoc.create ("SHAMEL Server Monitor Log");
 		//	Body
 		body b = doc.getBody();
 		//
@@ -648,7 +648,7 @@ public class AdempiereMonitor extends HttpServlet
 	private void createSummaryPage (HttpServletRequest request, HttpServletResponse response,boolean refresh)
 		throws ServletException, IOException
 	{
-		WebDoc doc = WebDoc.create ("iDempiere Server Monitor");
+		WebDoc doc = WebDoc.create ("SHAMEL Server Monitor");
 	//	log.info("ServletConfig=" + getServletConfig());
 		AdempiereServerGroup.get().dump();
 

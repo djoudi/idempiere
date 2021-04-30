@@ -1,10 +1,10 @@
 <%@ page import="org.bmlaurus.home.Prop" %>
 <!--
-Theme Name: iDempiere Theme
+Theme Name: SHAMEL Theme
 Version: 2.0
-Description: iDempiere Theme
-Author: BMLaurus
-Author URI: http://www.bmlaurus.com
+Description: SHAMEL Theme
+Author: Djoudi
+Author URI: http://www.djoudi.net
 -->
 <html>
 <% Prop.load(); %>

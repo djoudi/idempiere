@@ -1,4 +1,4 @@
-@Title Install idempiere Server Silently
+@Title Install shamel Server Silently
 @Echo off
 
 
