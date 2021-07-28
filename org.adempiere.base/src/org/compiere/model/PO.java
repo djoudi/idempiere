@@ -112,7 +112,7 @@ public abstract class PO
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = -7231417421289556724L;
+	private static final long serialVersionUID = 571979727987834997L;
 
 	public static final String LOCAL_TRX_PREFIX = "POSave";
 
@@ -2417,10 +2417,10 @@ public abstract class PO
 			m_createNew = false;
 		}
 		if (!newRecord) {
-			CacheMgt.get().reset(p_info.getTableName(), get_ID());
+			Adempiere.getThreadPoolExecutor().submit(() -> CacheMgt.get().reset(p_info.getTableName(), get_ID()));
 			MRecentItem.clearLabel(p_info.getAD_Table_ID(), get_ID());
 		} else if (get_ID() > 0 && success)
-			CacheMgt.get().newRecord(p_info.getTableName(), get_ID());
+			Adempiere.getThreadPoolExecutor().submit(() -> CacheMgt.get().newRecord(p_info.getTableName(), get_ID()));
 		
 		return success;
 	}	//	saveFinish
@@ -3579,7 +3579,7 @@ public abstract class PO
 				int size = p_info.getColumnCount();
 				m_oldValues = new Object[size];
 				m_newValues = new Object[size];
-				CacheMgt.get().reset(p_info.getTableName(), Record_ID);
+				Adempiere.getThreadPoolExecutor().submit(() -> CacheMgt.get().reset(p_info.getTableName(), Record_ID));
 			}
 		}
 		finally
@@ -5111,6 +5111,28 @@ public abstract class PO
 		}
 		fks_cache.put(get_Table_ID(), retValue);
 		return retValue;
+	}
+
+	/**
+	 * Verify if a column exists
+	 * @param columnName
+	 * @param throwException - must throw an exception when the column doesn't exist
+	 * @return
+	 */
+	public boolean columnExists(String columnName, boolean throwException) {
+		int idx = get_ColumnIndex(columnName);
+		if (idx < 0 && throwException)
+			throw new AdempiereException("Column " + get_TableName() +"." + columnName + " not found");
+		return (idx >= 0);
+	}
+
+	/**
+	 * Verify if a column exists
+	 * @param columnName
+	 * @return boolean
+	 */
+	public boolean columnExists(String columnName) {
+		return columnExists(columnName, false);
 	}
 
 }   //  PO

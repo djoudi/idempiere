@@ -60,6 +60,7 @@ public class SystemIDs
 	public final static int FORM_REPORT_WIZARD = 200002;
 	public final static int FORM_SETUP_WIZARD = 200000;
 	public final static int FORM_ADD_AUTHORIZATION = 200016;
+	public final static int FORM_MFA_REGISTER = 200017;
 
 	public final static int MENU_NOTICE = 233;
 
@@ -145,8 +146,11 @@ public class SystemIDs
 	public final static int REFERENCE_DATATYPE_YES_NO = 20;
 
 	public final static int REFERENCE_ACCOUNT = 175;
+	public final static int REFERENCE_AD_LANGUAGE = 106;
 	public final static int REFERENCE_AD_USER = 110;
+	public final static int REFERENCE_AD_USER_SALESREP = 190;
 	public final static int REFERENCE_ASSIGNMENT = 200181;
+	public final static int REFERENCE_C_DOCTYPE = 170;
 	public final static int REFERENCE_CHART = 200183;
 	public final static int REFERENCE_DOCUMENTACTION = 135;
 	public final static int REFERENCE_DOCUMENTSTATUS = 131;
