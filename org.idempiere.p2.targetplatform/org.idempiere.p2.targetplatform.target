@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
-<!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="idempiere-201101" sequenceNumber="1606184870">
+<!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl --><target name="idempiere-201101" sequenceNumber="1606184870">
   <locations>
-    <location includeMode="slicer" includeAllPlatforms="true" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="com.sun.istack.commons-runtime" version="3.0.8"/>
       <unit id="com.sun.org.apache.xml.internal.resolver" version="20050927.0.0"/>
       <unit id="com.sun.xml.fastinfoset.FastInfoset" version="1.2.16"/>
@@ -23,7 +22,7 @@
       <unit id="org.jvnet.staxex.stax-ex" version="1.8.1"/>
       <repository location="https://idempiere.github.io/binary.file/p2.maven/org.idempiere.webservice.client-p2-R20190412"/>
     </location>
-    <location includeMode="slicer" includeAllPlatforms="true" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="zcommon" version="9.5.0.1"/>
       <unit id="zel" version="9.5.0.1"/>
       <unit id="zhtml" version="9.5.0.1"/>
@@ -37,7 +36,7 @@
       <unit id="zweb-dsp" version="9.5.0.1"/>
       <repository location="https://idempiere.github.io/binary.file/p2.zk/9.5.0.1"/>
     </location>
-    <location includeMode="slicer" includeAllPlatforms="true" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="bcmail" version="1.66.0"/>
       <unit id="bcpkix" version="1.66.0"/>
       <unit id="bcprov" version="1.66.0"/>
@@ -217,7 +216,7 @@
       <unit id="stax2-api" version="4.2.0"/>
       <repository location="https://idempiere.github.io/binary.file/p2.maven/maven-p2-R20201101"/>
     </location>
-    <location includeMode="slicer" includeAllPlatforms="true" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.eclipse.osgi" version="3.16.0.v20200828-0759"/>
       <unit id="org.apache.commons.codec" version="1.13.0.v20200108-0001"/>
       <unit id="org.apache.commons.logging" version="1.2.0.v20180409-1502"/>
@@ -304,7 +303,7 @@
       <unit id="org.eclipse.jdt.junit5.runtime" version="1.0.1000.v20200720-0748"/>
       <repository location="https://download.eclipse.org/eclipse/updates/4.17"/>
     </location>
-    <location includeMode="slicer" includeAllPlatforms="true" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="com.google.gson" version="2.8.2.v20180104-1110"/>
       <unit id="com.google.guava" version="27.1.0.v20190517-1946"/>
       <unit id="javax.inject" version="1.0.0.v20091030"/>
