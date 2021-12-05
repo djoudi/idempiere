@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: dz.shamel.arabictools
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: dz.shamel.arabictools
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.adempiere.base;bundle-version="8.2.0",
+ org.adempiere.plugin.utils;bundle-version="8.2.0",
+ net.sf.jasperreports.engine;bundle-version="6.15.0",
+ org.adempiere.report.jasper;bundle-version="8.2.0",
+ com.jaspersoft.studio.bundles.itext;bundle-version="2.1.7"
+Bundle-ClassPath: arabic-numbers-to-words-1.0.0.jar,
+ .
+Export-Package: dz.shamel.extention;uses:="net.sf.jasperreports.engine"

@@ -66,7 +66,7 @@ Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=11))"
 Import-Package: com.sun.mail.smtp;version="1.5",
  javax.jms;version="1.1.0",
- javax.mail;version="1.5",
+ javax.mail;version="1.5.0",
  javax.mail.internet;version="1.5",
  javax.servlet;version="3.0.0",
  javax.servlet.http;version="3.0.0",

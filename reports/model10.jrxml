@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.13.0.final using JasperReports Library version 6.13.0-46ada4d1be8f3c5985fd0b6146f3ed44caed6f05  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name=".jrxml" pageWidth="595" pageHeight="842" columnWidth="581" leftMargin="7" rightMargin="7" topMargin="7" bottomMargin="7" uuid="701bae84-2b63-46f3-8462-85c4bf8e25fd">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="shamel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="inch"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="inch"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value="YWRfdXNlciBBUyAsMTU4LDcyLDNlNzFhODk4LWQxNjktNDUwMi1iNTZkLTIzNTk1NDVmZGEzNjs="/>
+	<queryString>
+		<![CDATA[SELECT ad_user.name
+FROM ad_user]]>
+	</queryString>
+	<field name="name" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="name"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ad_user"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="127" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="-3" width="101" height="80" uuid="97d3600d-b99c-4a4b-a274-3e7f4267f2c3"/>
+				<imageExpression><![CDATA["images/CNFPCL2.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="130" y="0" width="343" height="88" uuid="6019112c-b8e0-48ca-823f-f468e7fbaa99"/>
+				<imageExpression><![CDATA["images/الجمهورية.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="204" y="89" width="187" height="29" uuid="472cb1d4-2f0c-4bbc-b1e7-5d3b438d5c26"/>
+				<textElement textAlignment="Right">
+					<font fontName="Khalid Art bold" size="16" pdfFontName="fonts/Khalid.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[مديرية الدراســات و التداريب]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="571" splitType="Stretch">
+			<property name="com.jaspersoft.studio.layout"/>
+			<staticText>
+				<reportElement x="20" y="541" width="203" height="30" uuid="0e43c5cf-8649-477d-8a8b-3fd157e33867"/>
+				<textElement textAlignment="Center">
+					<font fontName="Khalid Art bold" size="18" pdfFontName="fonts/Khalid.ttf" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[المدير]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="40" width="91" height="31" uuid="d6988d53-14c8-4d83-bd80-39a02b2df201"/>
+				<textElement textAlignment="Right">
+					<font fontName="Khalid Art bold" size="16" pdfFontName="fonts/Khalid.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[وهران في :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="255" width="571" height="133" uuid="487b6b80-a192-4a05-bc89-bd2f3c403d7d"/>
+				<textElement textAlignment="Right">
+					<font fontName="Khalid Art bold" size="16" pdfFontName="fonts/Khalid.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[ تبعا لإرسالكم المشار إليه بالمرجع أعلاه ، والمتعلق بتنظيم دورة تكوينية خاصة بالتكوين  .......................................للإلتحاق برتبة.................................................. ، يشرفني أن أخبركم أنه قد تم التكفل بهذه العملية من قبل مصالحنا وفقا لإرسالنا رقم................المؤرخ في ....................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="160" y="435" width="338" height="30" uuid="a8e83be1-7563-4295-95db-ca59d41d682a"/>
+				<textElement textAlignment="Right">
+					<font fontName="Khalid Art bold" size="16" pdfFontName="fonts/Khalid.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[تقبلوا منا  أسمى عبارات التقدير و الإحترام . ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="71" width="91" height="31" uuid="0bb67bd8-36ac-4d4f-a5ce-25ce9cd4d53f"/>
+				<textElement textAlignment="Right">
+					<font fontName="Khalid Art bold" size="16" pdfFontName="fonts/Khalid.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[إلى السيد]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="140" width="260" height="31" uuid="0809fe13-a5ea-4033-9c6c-a9a230acfb54"/>
+				<textElement textAlignment="Right">
+					<font fontName="Khalid Art bold" size="16" pdfFontName="fonts/Khalid.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[الموضوع: ف/ي تنظيم دورة التكوين ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="171" width="281" height="31" uuid="29cbf5e8-2e20-44be-b9a7-b4809cf4780d"/>
+				<textElement textAlignment="Right">
+					<font fontName="Khalid Art bold" size="16" pdfFontName="fonts/Khalid.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[المرجع: إرسالكم رقم ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="88" y="170" width="186" height="31" uuid="fa25a5a1-b08b-47e7-8b37-9e26ffd34699"/>
+				<textElement textAlignment="Right">
+					<font fontName="Khalid Art bold" size="16" pdfFontName="fonts/Khalid.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[ المؤرخ في ]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
